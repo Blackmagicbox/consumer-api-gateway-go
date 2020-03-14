@@ -1,5 +1,13 @@
 package router
 
-func main() {
-	// Implement the selectors for routes
+import (
+	"net/http"
+
+	"github.com/gorilla/mux"
+)
+
+func HomeHandler(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	
+
 }
