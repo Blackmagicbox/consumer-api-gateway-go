@@ -1,9 +1,8 @@
 package router
 
 import (
-	"net/http"
-
 	"github.com/gorilla/mux"
+	"net/http"
 )
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
